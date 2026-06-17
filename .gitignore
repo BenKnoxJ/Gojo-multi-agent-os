@@ -1,0 +1,31 @@
+# ── Secrets & credentials — NEVER commit these ──────────────
+.env
+.env.*
+*.pem
+*.key
+*-secret*
+credentials.json
+**/state/
+**/.claude/channels/
+
+# ── Dependencies ────────────────────────────────────────────
+node_modules/
+.bun/
+bun.lockb
+
+# ── Build output ────────────────────────────────────────────
+dist/
+build/
+*.tsbuildinfo
+
+# ── Logs & runtime ──────────────────────────────────────────
+*.log
+logs/
+*.pid
+
+# ── OS / editor noise ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
